@@ -2,7 +2,7 @@
 -- Longo Development 
 ---------------------
 
-local reviveTimer = 10 -- This is uses for both Revive and Respawn, You may change the time to your needs (Time is in seconds)
+local reviveTimer = 90 -- This is uses for both Revive and Respawn, You may change the time to your needs (Time is in seconds)
 
 isDead = false
 timerCount1 = reviveTimer
