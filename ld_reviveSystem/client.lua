@@ -31,7 +31,7 @@ end
 function respawnPed()
     local rCoords = vector3(1828.44, 3692.32, 34.22)
     isDead = false
-    timerCount1 = respawnTimer
+    timerCount1 = reviveTimer
     SetEntityCoordsNoOffset(PlayerPedId(), rCoords.x, rCoords.y, rCoords.z, true, false, false)
     NetworkResurrectLocalPlayer(rCoords.x, rCoords.y, rCoords.z, GetEntityHeading(PlayerPedId()), true, false)
     ClearPedBloodDamage(PlayerPedId())
